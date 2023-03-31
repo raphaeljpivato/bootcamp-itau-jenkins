@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Install dependencies') {
             when {
-                branch "jenkins"
+                branch "main"
             }
             steps {
                 sh "ls -la"
